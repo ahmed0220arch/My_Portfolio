@@ -6,9 +6,9 @@ import Image from "next/image"
 
 export default function About() {
   const skills = [
-    { icon: <Code className="w-8 h-8 text-blue-500" />, title: "Frontend", description: "React, Next.js, Redux" },
-    { icon: <Server className="w-8 h-8 text-green-500" />, title: "Backend", description: "Node.js, Express, Fastify" },
-    { icon: <Database className="w-8 h-8 text-purple-500" />, title: "Database", description: "MongoDB, Mongoose" },
+    { icon: <Code className="w-8 h-8 text-blue-500" />, title: "Frontend", description: "React, Next.js, Angular Basics" },
+    { icon: <Server className="w-8 h-8 text-green-500" />, title: "Backend", description: "Node.js, Django, Laravel" },
+    { icon: <Database className="w-8 h-8 text-purple-500" />, title: "Database", description: "MySQL, MongoDB" },
     { icon: <Zap className="w-8 h-8 text-yellow-500" />, title: "Performance", description: "Optimization, Caching" },
   ]
 
@@ -37,11 +37,11 @@ export default function About() {
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
               Dynamic and results‑oriented software developer with robust full‑stack expertise in Laravel and Django for
-              back‑end, and React/Angular for front‑end. Focused on designing, implementing, and optimizing scalable
+              back‑end, and React/Next for front‑end. Focused on designing, implementing, and optimizing scalable
               applications.
             </p>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              Comfortable across the stack: HTML, CSS, JavaScript/TypeScript, Bootstrap, React; Django, Laravel, Flask,
+              Comfortable across the stack: HTML, CSS, JavaScript/TypeScript, Bootstrap, React; Django, Laravel,
               Node.js; MySQL. Strong problem‑solving and a focus on clean, maintainable code.
             </p>
           </motion.div>

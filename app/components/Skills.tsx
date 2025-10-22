@@ -24,7 +24,7 @@ const skills = [
   {
     icon: Server,
     name: "Backend Development",
-    tech: "Django, Laravel, Flask, Node.js",
+    tech: "Django, Laravel, Node.js",
     description: "Building secure, scalable APIs and services with Python/PHP/Node.js frameworks and best practices.",
     color: "text-green-500",
   },
@@ -56,20 +56,7 @@ const skills = [
     description: "Writing type-safe code for better maintainability and developer experience.",
     color: "text-yellow-500",
   },
-  {
-    icon: Layers,
-    name: "State Management",
-    tech: "Redux, Context API",
-    description: "Managing complex application state with modern state management solutions.",
-    color: "text-indigo-500",
-  },
-  {
-    icon: Cpu,
-    name: "API Development",
-    tech: "REST, GraphQL",
-    description: "Designing and implementing efficient APIs for seamless data communication.",
-    color: "text-red-500",
-  },
+  
   {
     icon: Globe,
     name: "Web Performance",

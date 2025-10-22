@@ -10,7 +10,7 @@ export default function Education() {
     {
       degree: "Bachelor | Multimedia & Web Development",
       institution: "Higher Institute of Technological Studies, Nabeul",
-      period: "Sept 2023 – Present",
+      period: "Sept 2023 – Jun 2026",
       achievements: [
         "Projects in web design, front‑end engineering, and full‑stack development",
       ],

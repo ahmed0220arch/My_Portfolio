@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { GitlabIcon as GitHub, Linkedin, Mail, ArrowDown } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
 import { motion } from "framer-motion"
 
 const CodePattern = () => (
@@ -52,17 +52,17 @@ export default function Hero() {
               Junior Software Developer
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
-              Dynamic developer with experience across full‑stack (Laravel, Django, Flask, Node.js, MySQL) and modern
-              front‑end (React, Angular). Focused on designing, implementing, and optimizing scalable applications that
+              Dynamic developer with experience across full‑stack (Laravel, Django, Node.js, MySQL) and modern
+              front‑end (React, Next.js , Angular basics). Focused on designing, implementing, and optimizing scalable applications that
               drive business objectives.
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
-                href="#"
+                href="https://github.com/ahmed0220arch"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="GitHub Profile"
               >
-                <GitHub className="w-6 h-6 text-gray-700 dark:text-gray-300" />
+                <Github className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
                 href="https://www.linkedin.com/in/ahmed-dridi022/"
@@ -79,15 +79,16 @@ export default function Hero() {
                 <Mail className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
             </div>
-            <motion.button
-              onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+            <motion.a
+              href="/cv.pdf"
+              download
               className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Learn More
+              Download CV
               <ArrowDown className="w-4 h-4" />
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           <motion.div

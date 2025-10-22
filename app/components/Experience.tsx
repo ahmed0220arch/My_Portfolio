@@ -13,9 +13,9 @@ export default function Experience() {
       period: "Jan 2025 – Feb 2025",
       role: "Professional Development Intern",
       responsibilities: [
-        "Gained practical experience with relevant software and technology",
-        "Participated in training sessions and workshops to enhance knowledge and skillset",
-        "Sought opportunities to learn new skills and tackle challenging tasks",
+        "Gained practical skills with Django and React by creating a full website with a call button and pop-up page",
+        "Connected the application with Sodedif server to enable online calls, making it easier for customers",
+        "Helped minimize company costs through improved communication infrastructure",
       ],
     },
     {

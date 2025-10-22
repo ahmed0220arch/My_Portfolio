@@ -14,7 +14,7 @@ export default function Services() {
     {
       icon: <Server className="w-12 h-12 text-green-500" />,
       title: "Backend Development",
-      description: "Robust and scalable server-side solutions using Node.js, Express, and Fastify.",
+      description: "scalable server-side solutions using Node.js, Django, and Laravel.",
     },
     {
       icon: <Code className="w-12 h-12 text-purple-500" />,
