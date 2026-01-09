@@ -30,24 +30,20 @@ export default function ResumePage() {
         <div className="bg-white">
           {/* Header */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Rupesh Bhandari</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">Ahmed Dridi</h1>
             <div className="flex flex-wrap justify-center gap-4 text-gray-600 text-sm">
               <div className="flex items-center gap-1">
                 <Mail className="h-4 w-4" />
                 ahmeddridi0022@gmail.com
               </div>
               <div className="flex items-center gap-1">
-                <Phone className="h-4 w-4" />
-                +21693590504
-              </div>
-              <div className="flex items-center gap-1">
                 <MapPin className="h-4 w-4" />
-                Kathmandu, Nepal
+                Tunis, Tunisia
               </div>
               <div className="flex items-center gap-1">
                 <Linkedin className="h-4 w-4" />
                 <a
-                  href="https://www.linkedin.com/in/rupesh-bhandari-5977b525a"
+                  href="https://www.linkedin.com/in/ahmed-dridi022/"
                   className="text-blue-600 hover:underline"
                 >
                   LinkedIn Profile
