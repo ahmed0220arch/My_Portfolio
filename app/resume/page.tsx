@@ -38,7 +38,7 @@ export default function ResumePage() {
               </div>
               <div className="flex items-center gap-1">
                 <Phone className="h-4 w-4" />
-                9810550900
+                +21693590504
               </div>
               <div className="flex items-center gap-1">
                 <MapPin className="h-4 w-4" />
@@ -108,7 +108,7 @@ export default function ResumePage() {
                 </div>
                 <div className="text-right text-gray-600">
                   <p>Lalitpur, Nepal</p>
-                  <p>September 2024 – Present</p>
+                  <p>JUN 2026 – Present</p>
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
