@@ -810,7 +810,7 @@ export default function Home() {
                   description:
                     "A professional e-commerce solution for salon products featuring product management, inventory tracking, secure checkout, and responsive design for optimal user experience.",
                   tags: ["Laravel", "Bootstrap", "MySQL"],
-                  image: "/images/ecommerce webs.png",
+                  image: "/images/ecommerce-webs.png",
                   link: "https://github.com/ahmed0220arch/e_commerce_website",
                 },
                 {
@@ -818,7 +818,7 @@ export default function Home() {
                   description:
                     "A premium beauty product e-commerce platform offering cosmetic products with advanced filtering, product categorization, and customer-centric design for enhanced shopping experience.",
                   tags: ["E-Commerce", "Product Management", "Responsive Design"],
-                  image: "/images/oma beauty.png",
+                  image: "/images/oma-beauty.png",
                   link: "https://github.com/ahmed0220arch/Oma-Beauty-E-Commerce-Website",
                 },
                 {
