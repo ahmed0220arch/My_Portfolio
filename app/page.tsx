@@ -42,7 +42,17 @@ export default function Home() {
   const [coffeeCount, setCoffeeCount] = useState(0)
 
   const codeSnippets = [
-    "return 'Laravel + React';",
+    "import Ahmed as FutureDataScienceMLEngineer",
+    "SELECT * FROM developers WHERE name = 'Ahmed';",
+    "const stack = ['Laravel', 'React', 'Next.js'];",
+    "npm run build && npm run deploy",
+    "git push origin main",
+    "docker-compose up -d",
+    "python manage.py runserver",
+    "php artisan serve",
+    "return response()->json($data);",
+    "model.fit(X_train, y_train)",
+    "import tensorflow as tf",
   ]
 
   const developerStates = [
