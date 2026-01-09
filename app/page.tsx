@@ -27,7 +27,6 @@ import {
   Zap,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import { sendContactEmail } from "./actions/contact"
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -123,23 +122,28 @@ export default function Home() {
     setContactState(null)
 
     const formData = new FormData(event.currentTarget)
+    const name = formData.get("name") as string
+    const email = formData.get("email") as string
+    const subject = formData.get("subject") as string
+    const message = formData.get("message") as string
 
-    try {
-      const result = await sendContactEmail(formData)
-      setContactState(result)
+    // Construct mailto link
+    const mailtoLink = `mailto:ahmeddridi0022@gmail.com?subject=${encodeURIComponent(
+      subject,
+    )}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`
 
-      if (result.success) {
-        event.currentTarget.reset()
-      }
-    } catch (error) {
-      console.error("Form submission error:", error)
+    // Open email client
+    window.location.href = mailtoLink
+
+    // Simulate success
+    setTimeout(() => {
       setContactState({
-        success: false,
-        message: "An unexpected error occurred. Please try again.",
+        success: true,
+        message: "Opening your email client to send the message...",
       })
-    } finally {
+      event.currentTarget.reset()
       setIsSubmitting(false)
-    }
+    }, 1000)
   }
 
   return (

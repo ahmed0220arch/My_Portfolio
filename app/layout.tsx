@@ -11,8 +11,8 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Ahmed Dridi - Full-stack Developer",
-  description: "Full-stack Developer with expertise in React Native, Expo, React, Tailwind CSS, and Laravel.",
+  title: "Ahmed Dridi - Software Developer & UI/UX Designer",
+  description: "Dynamic developer with experience across full‑stack (Laravel, Django, Node.js, MySQL) and modern front‑end (React, Next.js , Angular basics). Focused on designing, implementing, and optimizing scalable applications that drive business objectives., and Laravel.",
     generator: 'v0.app'
 }
 
